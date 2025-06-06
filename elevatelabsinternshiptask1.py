@@ -29,10 +29,3 @@ fare_threshold = df['Fare'].quantile(0.99)
 df = df[df['Fare'] < fare_threshold]
 
 df.to_csv('cleaned_titanic.csv', index=False)
-
-git init
-git add .
-git commit -m "Initial commit - Titanic preprocessing"
-git remote add origin https://github.com/Remant0818/elivatelabsinternship.git
-git branch -M main
-git push -u origin main
